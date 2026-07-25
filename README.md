@@ -1,3 +1,11 @@
+# Neovim Config
+
+This [Neovim](https://github.com/neovim/neovim) configuration is based on the
+[kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim) project, but created from the template to be adapted and
+modified without the upstream dependency, like with my original [fork](https://github.com/Suamppa/kickstart.nvim).
+
+---
+
 # kickstart.nvim
 
 ## Introduction
