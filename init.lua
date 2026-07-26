@@ -345,6 +345,9 @@ do
       italic = false, -- Disable italics (rose-pine doesn't support disabling per area)
       transparency = true,
     },
+    highlight_groups = {
+      NormalFloat = { bg = 'surface' }, -- Background for floating windows
+    },
   }
 
   -- Load the colorscheme here.
