@@ -1001,11 +1001,6 @@ do
 end
 
 vim.pack.add { gh 'github/copilot.vim' }
-require('copilot').setup {}
-
-vim.pack.add { gh 'mbbill/undotree' }
-require('undotree').setup {}
-vim.keymap.set('n', '<leader>u', vim.cmd.UndotreeToggle)
 
 vim.pack.add { gh 'seblyng/roslyn.nvim' }
 require('roslyn').setup {}
