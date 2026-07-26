@@ -1005,7 +1005,7 @@ vim.pack.add { gh 'github/copilot.vim' }
 vim.pack.add { gh 'seblyng/roslyn.nvim' }
 require('roslyn').setup {}
 
-vim.pack.add { gh 'norcalli/nvim-colorizer.lua' }
+vim.pack.add { gh 'catgoose/nvim-colorizer.lua' }
 require('colorizer').setup {}
 
 -- Adapt to local EditorConfig
