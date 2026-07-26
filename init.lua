@@ -342,8 +342,7 @@ do
   ---@diagnostic disable-next-line: missing-fields
   require('rose-pine').setup {
     styles = {
-      comments = { italic = false }, -- Disable italics in comments
-      -- italic = false, -- Disable italics in general
+      italic = false, -- Disable italics (rose-pine doesn't support disabling per area)
       transparency = true,
     },
   }
