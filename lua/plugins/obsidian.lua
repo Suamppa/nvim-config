@@ -19,4 +19,7 @@ require('obsidian').setup {
       path = '~/Projektit/Yliopisto/Gradu',
     },
   },
+  callbacks = {
+    post_setup = function() vim.opt.conceallevel = 1 end,
+  },
 }
