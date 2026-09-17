@@ -32,5 +32,6 @@ require 'plugins.indent_line'
 -- require 'plugins.lint'
 require 'plugins.autopairs'
 -- require 'plugins.neo-tree'
+require 'plugins.obsidian'
 
 -- vim: ts=2 sts=2 sw=2 et
