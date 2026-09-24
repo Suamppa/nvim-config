@@ -6,3 +6,6 @@ nvim
 spell/
 
 .DS_Store
+
+# obsidian.nvim requires a table of workspaces but workspaces are machine-specific
+lua/plugins/obsidian-workspaces.lua
