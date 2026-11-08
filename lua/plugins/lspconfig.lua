@@ -149,6 +149,8 @@ local servers = {
       },
     },
   },
+
+  jsonls = {},
 }
 
 vim.pack.add {
